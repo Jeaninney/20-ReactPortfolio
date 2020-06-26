@@ -12,11 +12,10 @@ state = {
 };
 
 componentDidMount() {
-    this.ListeningStateChangedEvent({ portfolio });
+    this.setState({ portfolio });
 }
 
 render() {
-
     return (
       <Wrapper>
           <Title children="My Portfolio" />
