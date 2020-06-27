@@ -4,14 +4,11 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 // import Card from "../components/Card";
 
-function About() {
+function Contact() {
   return (
       <Container style={{ marginTop: 30 }}>
         <Row>
-          <Col size="xs-12 sm-3 md-4 lg-4 xl-4">
-          <img alt="Jeaninne MacDonnell" src="images/Jeaninne.jpg" className="img-fluid" />
-          </Col>
-          <Col size="xs-12 sm-9 md-8 lg=8 xl=8">
+          <Col size="xs-6 sm-6 md-6 lg=8 xl=8">
             <h1>About Me!</h1>
           </Col>
         </Row>
@@ -44,4 +41,4 @@ function About() {
   );
 }
 
-export default About;
+export default Contact;

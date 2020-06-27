@@ -17,7 +17,7 @@ function PortfolioCard(props) {
             <strong>Assignment:</strong> {props.assignment}
           </li>
           <li>
-            <strong>URL:</strong> {props.url}
+            <strong>URL:</strong><a className="underLine" href={props.url}>{props.url}</a>
           </li>
         </ul>
       </div>
