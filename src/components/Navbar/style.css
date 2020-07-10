@@ -1,4 +1,17 @@
+nav {
+	font-family: 'Lobster Two', cursive;
+}
+
+li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 nav.navbar.navbar-default {
     margin-bottom: 0;
-    background-color: #e3f2fd;
-  }
+		background-color: #e3f2fd;
+	}
+	
+.navbar-brand {
+
+}

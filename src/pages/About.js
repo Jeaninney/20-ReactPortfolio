@@ -17,26 +17,18 @@ function About() {
         </Row>
         <Row>
           <Col size="md-12">
-          <p>
-                Welcome to my webpage for Homework 2. There's no useful information here. I'm just rambling to fill space. 
-                I was pretty busy this week, and spent a significant time without access to Wi-Fi. So, there are a lot fo things I wanted to try, but just ran out of time.
-                I'm hoping this effort will be enough.
-            </p>
-            <p>
-                This is another paragraph. Again, no real content. Just text as filler. 
-                I'm aware that I could use the Lorem Ipsum, but rambling here is just more fun. And who knows, you might actually read it.
-            </p>
-            <p>
-                Well, if you've gotten this far, I may as well say a little about myself. This is the About Me page after all.
-                I like travelling and going on vacations. Who doesn't? I guess some people don't like travelling. Some people prefer to just stay home
-                My husband enjoys travelling too and ever since he's come into my life, I've been to so many more places than I once thought I'd see.
-            </p>
-            <p>
-                This is another paragraph. We're both from Michigan. I honestly never thought I'd live outside of Michigan. 
-                But I moved to the DC area because my husband got an awesome job here. I, however, got an acceptable job. 
-                I like it well enough. My favorite parts are when I'm able to be creative and improve processes. I took this 
-                class because I think I can use a lot of the skills I will learn here to improve the processes in my current job. Amongst other things.
-            </p>
+          <p className="indenttext">
+                Welcome to my little space on the web. My name is Jeaninne. I currently work for a healthcare company in Washington, DC as an Information Security and Access Control Analyst.
+								<br /> <br />
+								I decided to take the GW Full Stack Web Development Coding Bootcamp because I've always had an interest in coding and I enjoy being creative. In the past, I've built 
+								elaborate tools inside of Microsoft Excel using macros and Visual Studio. I've always wanted to take those projects to the next level and build them for the web. This
+								course has given me the tools to be able to do that.
+								<br /> <br />
+								I've learned so much in the 6-month course. I can can now confidently code in HTML, CSS, and Javascript, jQuery and React. I can create and manipulate data in MySQL
+								as well as Mongo databases. I enjoy playing with styling and layouts in the front-end as well as working with data with APIs and databases in the back-end.
+								<br /> <br />
+								But most importantly, I love bringing my ideas to life. Please check out my Portfolio page to see some of the cool things I've built.
+								</p>
           </Col>
         </Row>
       </Container>

@@ -9,7 +9,7 @@ function Navbar() {
  <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
      {/* <span class="navbar-brand mb-1 h1">Jeaney Bean</span> */}
       <Link className="navbar-brand mb-1 h1" to="/">
-        Jeaney Bean
+        Jeaninney
       </Link>
 
    <div>

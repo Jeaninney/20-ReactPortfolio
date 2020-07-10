@@ -3,27 +3,37 @@ import "./style.css";
 import Col from "../Col";
 function PortfolioCard(props) {
   return (
-    <Col size="xs-12 sm-6 md-4 lg-4 xl-6">
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Assignment:</strong> {props.assignment}
-          </li>
-          <li>
+		<>
+		<Col size="md-1"></Col>
+    <Col size="md-10">
+    <div className="card mb-3">
+      <div className="row no-gutters img-container">
+				<div className="col-md-4">
+        <img className="card-img" alt={props.name} src={props.image} />
+				</div>
+      <div className="content col-md-8">
+				<div class="card-body">
+				<h5 class="card-title">
+          <strong>Name:</strong> {props.name}
+				</h5>
+        <p className="card-text">
+					<strong>Assignment:</strong> {props.assignment}
+				</p>
+				<p className="card-text">
+					<strong>Description:</strong> {props.description}
+				</p>
+				<p className="card-text"></p>
             <strong>URL:</strong><a className="underLine" href={props.url}>{props.url}</a>
-          </li>
-        </ul>
-      </div>
+          
+				</div>
+				</div>
+			</div>
     </div>
-   </Col>
+	 </Col>
+	 <Col size="md-1"></Col>
+	 </>
     
   );
 }
 export default PortfolioCard;
+
