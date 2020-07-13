@@ -1,3 +1,4 @@
-div {
-    font-family: 'Fredoka One', cursive;
+.title {
+		font-family: 'Fredoka One', cursive;
+		margin: 25px;
 }

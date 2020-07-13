@@ -4,7 +4,6 @@ import Wrapper from "../components/Wrapper";
 import Title from "../components/Title";
 import Row from "../components/Row";
 import portfolio from "../portfolio.json";
-// import About from "./pages/About";
 
 class Portfolio extends Component {
 state = {
@@ -18,7 +17,7 @@ componentDidMount() {
 render() {
     return (
       <Wrapper>
-          <Title children="My Portfolio" />
+          <Title children="My wonderful works of art" />
           <Row>
             {this.state.portfolio.map(entry => 
             <PortfolioCard
@@ -26,7 +25,8 @@ render() {
               key={entry.id}
               name={entry.name}
               image={entry.image}
-              assignment={entry.assignment}
+							assignment={entry.assignment}
+							description={entry.description}
               url={entry.url}
               />
           )}

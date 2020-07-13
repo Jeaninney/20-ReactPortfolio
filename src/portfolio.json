@@ -1,66 +1,138 @@
 [
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    },
-    {
-      "id": 7,
-      "name": "Birdtopia",
-      "image": "/images/Birdtopia.jpg",
-      "assignment": "First Project",
-      "url": "https://jeaninney.github.io/Project_1GWU/"
-    }
-
-  ]
+	{
+		"id": 21,
+		"name": "Google Books",
+		"image": "/images/21-GoogleBooks.jpg",
+		"assignment": "MERN",
+		"description": "Created with React and using a MongoDB, this simple website allows the user to search for books and save choices for later.",
+		"url": "https://react-googlebooksapp.herokuapp.com/"
+	},
+	{
+		"id": 19,
+		"name": "User Directory",
+		"image": "/images/19-UserDirectory.jpg",
+		"assignment": "React",
+		"description": "A user directory created using React. The data is stored in a JSON file.",
+		"url": "https://lit-springs-39178.herokuapp.com/"
+	},
+	{
+		"id": 18,
+		"name": "Progressive Budget",
+		"image": "/images/18-ProgressiveBudget.jpg",
+		"assignment": "Progressive Web Application",
+		"description": "A budget tracker. The data is stored in a MongoDB and in IndexedDB while offline.",
+		"url": "https://salty-sea-55252.herokuapp.com/"
+	},
+	{
+		"id": 17,
+		"name": "Fitness Tracker",
+		"image": "/images/17-FitnessTracker.jpg",
+		"assignment": "No SQL",
+		"description": "A website to track workout excercises. It stores the data in a MongoDB.",
+		"url": "https://vast-lowlands-49904.herokuapp.com/"
+	},
+	{
+		"id": 15,
+		"name": "Trace-Me",
+		"image": "/images/15-TraceMe.jpg",
+		"assignment": "Project 2",
+		"description": "A contact tracing application.",
+		"url": "https://trace-me-app.herokuapp.com/main.html"
+	},
+	{
+		"id": 13,
+		"name": "Eet Da Burger",
+		"image": "/images/13-EetDaBurger.jpg",
+		"assignment": "MVC and Node Express Handlebars",
+		"description": "A website that a list of burgers eaten and a wishlist of burgers to eat.",
+		"url": "https://limitless-falls-13441.herokuapp.com/"
+	},
+	{
+		"id": 12,
+		"name": "Employee Management System",
+		"image": "/images/12-EmployeeManagementSystem.jpg",
+		"assignment": "MySQL",
+		"description": "A CLI application that saves information in a MySQL database.",
+		"url": "https://github.com/Jeaninney/12-EmployeeTracker"
+	},
+	{
+		"id": 11,
+		"name": "Note Taker",
+		"image": "/images/11-NoteTaker.jpg",
+		"assignment": "Express",
+		"description": "A web aplication that allows a user to store notes. The notes are written to a JSON file.",
+		"url": "https://stormy-garden-79025.herokuapp.com/notes"
+	},
+	{
+		"id": 10,
+		"name": "Team Profile Generator",
+		"image": "/images/10-Team.jpg",
+		"assignment": "Object Oriented Programming and Test-Driven Development",
+		"description": "A CLI application that asks a few questions about team members and generates an HTML page that shows information about the team",
+		"url": "https://github.com/Jeaninney/10-EmployeeSummary"
+	},
+	{
+		"id": 9,
+		"name": "README Generator",
+		"image": "/images/09-ReadmeGenerator.gif",
+		"assignment": "NodeJS",
+		"description": "A CLI application that asks a few questions about a project and generates a README file based on the answers.",
+		"url": "https://github.com/Jeaninney/09-ReadmeGenerator"
+	},
+	{
+		"id": 7,
+		"name": "Birdtopia",
+		"image": "/images/07-Birdtopia.jpg",
+		"assignment": "Project 1",
+		"description": "A website that uses geolocation and APIs to return information about birds in your area.",
+		"url": "https://jeaninney.github.io/Birdtopia/"
+	},
+	{
+		"id": 6,
+		"name": "Weather Dashboard",
+		"image": "/images/06-WeatherDashboard.jpg",
+		"assignment": "Server-Side APIs",
+		"description": "Used AJAX to query a Weather API and return weather information to this page.",
+		"url": "https://jeaninney.github.io/06-WeatherDashboard/"
+	},
+	{
+		"id": 5,
+		"name": "Day Planner",
+		"image": "/images/05-DayPlanner.jpg",
+		"assignment": "3rd Party APIs & jQuery",
+		"description": "A day planner that uses jQuery and local storage.",
+		"url": "https://jeaninney.github.io/05-WorkDayScheduler/"
+	},
+	{
+		"id": 4,
+		"name": "Code Quiz",
+		"image": "/images/04-CodeQuiz.jpg",
+		"assignment": "Web APIs",
+		"description": "A code quiz that uses DOM manipulation.",
+		"url": "https://jeaninney.github.io/04-CodeQuiz/"
+	},
+	{
+		"id": 3,
+		"name": "Password Generator",
+		"image": "/images/03-Javascript.jpg",
+		"assignment": "Javascript",
+		"description": "An incredible password generator using Javascript that generates a random password of the desired length and complexity.",
+		"url": "https://jeaninney.github.io/03-PasswordGenerator/"
+	},
+	{
+		"id": 2,
+		"name": "Responsive Portfolio",
+		"image": "/images/02-Portfolio.jpg",
+		"assignment": "CSS & Bootstrap",
+		"description": "We created a portfolio page using the HTML, CSS and Bootstrap. I didn't have much to add at the time, so it was all personal interest and hobbies.",
+		"url": "https://jeaninney.github.io/02-Homework/"
+	},
+	{
+		"id": 1,
+		"name": "Code Refactor",
+		"image": "/images/01-CodeRefactor.jpg",
+		"assignment": "HTML - Refactor",
+		"description": "Our first assignment. We were given HTML code and asked to refactor it to make it accessible.",
+		"url": "https://jeaninney.github.io/homework01/"
+	}
+]

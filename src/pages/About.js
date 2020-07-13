@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Title from "../components/Title";
 // import Card from "../components/Card";
 
 function About() {
@@ -12,7 +13,7 @@ function About() {
           <img alt="Jeaninne MacDonnell" src="images/Jeaninne.jpg" className="img-fluid" />
           </Col>
           <Col size="xs-12 sm-9 md-8 lg=8 xl=8">
-            <h1>About Me!</h1>
+            <Title>About Me!</Title>
           </Col>
         </Row>
         <Row>

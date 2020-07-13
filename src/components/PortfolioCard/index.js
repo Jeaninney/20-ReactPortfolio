@@ -9,7 +9,9 @@ function PortfolioCard(props) {
     <div className="card mb-3">
       <div className="row no-gutters img-container">
 				<div className="col-md-4">
-        <img className="card-img" alt={props.name} src={props.image} />
+				<a href={props.url} target="_blank" rel="noopener noreferrer">
+        <img className="card-img vertical-center" alt={props.name} src={props.image} />
+				</a>
 				</div>
       <div className="content col-md-8">
 				<div class="card-body">
@@ -23,7 +25,7 @@ function PortfolioCard(props) {
 					<strong>Description:</strong> {props.description}
 				</p>
 				<p className="card-text"></p>
-            <strong>URL:</strong><a className="underLine" href={props.url}>{props.url}</a>
+            <small><a className="underLine" href={props.url} target="_blank" rel="noopener noreferrer">{props.url}</a></small>
           
 				</div>
 				</div>

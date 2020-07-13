@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.css"
 
-function Container(props) {
-  return <div className={`container${props.fluid ? "-fluid" : ""}`} {...props} />;
+function Title(props) {
+  return <h1 className="title">{props.children}</h1>;
 }
 
-export default Container;
+export default Title;

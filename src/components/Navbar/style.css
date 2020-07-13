@@ -5,6 +5,7 @@ nav {
 li {
 	margin-left: 10px;
 	margin-right: 10px;
+	font-family: 'Lobster Two', cursive;
 }
 
 nav.navbar.navbar-default {
@@ -12,6 +13,3 @@ nav.navbar.navbar-default {
 		background-color: #e3f2fd;
 	}
 	
-.navbar-brand {
-
-}
